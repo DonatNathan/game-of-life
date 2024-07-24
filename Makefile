@@ -13,7 +13,7 @@ NAME = game_of_life
 
 CRITERION = -lcriterion --coverage
 
-ERROR = -Werror -Wall -pedantic -g3
+ERROR = -Werror -Wall -g3
 
 all: $(NAME)
 
